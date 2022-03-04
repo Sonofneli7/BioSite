@@ -1,117 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+/* Nelson Morales 3.4.2022 Assignment: Hobbiespage css */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Quattrocento:wght@400;700&display=swap');
 
-h1{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-size:3.052em;
-    color:silver;
-    background-color:  blue;
-    border:1px solid red;
-    font-weight: 700;
-    text-transform: uppercase;
-    word-spacing: .5em;
-    margin: 0px;
-    text-align: center;
-    padding: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Quattrocento:wght@400;700&display=swap');
 
+header{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-}
-h2{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-size: 2.441em;
-    background-color: blue;
-    border:1px solid red;
-    color: white;
-    font-weight: 500;
-    word-spacing: .2em;
-    margin: 0px;
-    text-align: center;
-    padding: 10px;
-}
-h3{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-size: 2.441em;
-    color:silver;
-    background-color: blue;
-    border:1px solid  red;
-    font-weight: 500;
-    word-spacing: .2em;
-    margin: 0px;
-    text-align: left;
-    padding: 10px;
-}
-h4{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    color:silver;
-    font-size: 2.441em;
-    background-color:  blue;
-    border:1px solid red;
-    font-weight: 500;
-    word-spacing: .2em;
-    margin: 0px;
-    text-align: left;
-    padding: 10px;
-}
-html{
-    font-size: 16px;
-}
 body{
-    font-size: 16px;
-    font-family:'Oswald', Verdana, Arial, sans-serif;
-}
-.container {
-  margin-top:50px ;
-  margin-left:100px ;
-  margin-right:100px ;
-
-}
-.column {
-  flex: 33.33%;
-  padding: 5px;
+  min-height:400px ;
+  overflow: scroll;
+  margin-bottom: 100px;
+  clear:both;
+  font-family: 'Oswald', sans-serif;
+  background-color: blue;
 }
 
 
-a {
-    font-size: 1.25em;
-    color: slategrey;
+h2{
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  font-size: 2.441em;
+  background-color: slategray;
+  border:1px solid yellow;
+  color: white;
+  font-weight: 500;
+  word-spacing: .2em;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+h3{
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  font-size: 2.441em;
+  color:red;
+  background-color:slategray;
+  border:1px solid yellow;
+  font-weight: 500;
+  word-spacing: .2em;
+  margin: 0px;
+  text-align: left;
+  padding: 10px;
+}
+
+#navbar{
+  overflow: hidden;
+  background-color: blue;
+  border-style: solid 15px #D6A800;
+
+}
+#navbar a {
+  float: left;
+  display: block;
+  color:Silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover{
+  color: red;
+}
+
+#container{
+  margin: 2% 5% 100px 5%;
+  padding: 10px;
+}
+
+#images{
+  border-collapse: collapse;
+  height: 50%
+  width: %;
+  margin-bottom:30px; 
+}
+img {
+  width: 150px;
+  height: 150px;
+ 
+}
+
+.danie1{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+}
+
+figure a img {
+  border-radius: 25px 25px;
+  width: 250px;
+  height: 250px;
+ }
+
+
+
+ td{
+  padding:8px;
+  border: 5px solid;
+  }
+#left {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+footer{
+  background-color:slategray;
+  position:fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0px;
+}
+.left-footer{
+  float: left;
+}
+
+.right-footer{
+  float: right;
+}
+
+footer p {
+  color: red ;
+  font-weight: 400;
+  padding-right: 10px;
+  font-style: italic;
+}
+footer a {
+    color: red;
     text-decoration: none;
 }
 
-a:hover {
-  color: red;
-}
-a:visited {
-  color: yellow;
-}
+footer a:hover {
+  text-decoration: underline;
+  color: black;
 
-footer{
-    background-color: blue;
-    position:fixed;
-    left: 0;
-    width: 100%;
-    bottom: 0px;
-  }
-  .left-footer{
-    float: left;
-  }
-  
-  .right-footer{
-    float: right;
-  }
-  
-  footer p {
-    color: silver;
-    font-weight: 400;
-    padding-right: 10px;
-    font-style: italic;
-  }
-  footer a {
-      color: silver;
-      text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
+}
